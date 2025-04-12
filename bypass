@@ -1,0 +1,2 @@
+aws s3 sync . s3://dna-autodidact-production-bucket/repos/react-3fd8b5ce2-react-final-assignment-scaffolding_react-1713959906398/master/ --delete --exclude ./venv/\* --exclude ./env/\*
+echo Success
